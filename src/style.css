@@ -14,10 +14,12 @@
   margin: 0;
 }
 body {
-  /* 3. Add accessible line-height */
   line-height: 1.5;
-  /* 4. Improve text rendering */
   -webkit-font-smoothing: antialiased;
+  background-color: var(--clr-lightGrayishBlue);
+  font-family: var(--ff-base);
+  font-size: var(--font-paragraph);
+  padding: 2rem;
 }
 /* 5. Improve media defaults */
 img, picture, video, canvas, svg {
@@ -45,10 +47,6 @@ h1, h2, h3, h4, h5, h6 {
 #root, #__next {
   isolation: isolate;
 }
-
-/** Global CSS **/
-/* We recommend writing minimal component-specific CSS here */
-
 
 /** Attribution CSS **/
 .attribution { 
